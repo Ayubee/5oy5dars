@@ -1,0 +1,23 @@
+.header__mod {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  background-color: #f2f2f7;
+  cursor: pointer;
+}
+
+.dark {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  background-color: #2a2b37;
+  cursor: pointer;
+}

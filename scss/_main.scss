@@ -1,0 +1,22 @@
+// Vendors
+@import "vendors/normalize";
+
+// Utils
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/functions";
+
+// Base
+@import "base/reset";
+@import "base/typography";
+
+// Components
+@import "components/buttons";
+
+// Layout
+@import "layout/header";
+@import "layout/footer";
+
+// Pages
+@import "pages/home";
+@import "pages/contact";

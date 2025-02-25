@@ -1,0 +1,11 @@
+@mixin theme($mode) {
+  @if $mode == "dark" {
+    --primary-color: #{$dark-primary-color};
+    --secondary-color: #{$dark-secondary-color};
+    --background-color: #{$dark-backround-color};
+  } @else if $mode == "light" {
+    --primary-color: #{$light-primary-color};
+    --secondary-color: #{$light-secondary-color};
+    --background-color: #{$light-backround-color};
+  }
+}

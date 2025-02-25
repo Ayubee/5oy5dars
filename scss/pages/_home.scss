@@ -1,0 +1,153 @@
+.hero {
+  margin-top: 2.5rem;
+  margin-bottom: 2.4rem;
+}
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero__title {
+  width: 100%;
+  max-width: 610px;
+  text-align: center;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-size: 6.4rem;
+  line-height: 1;
+}
+
+.hero__form__text {
+  width: 990px;
+  max-width: 990px;
+  height: 200px;
+  text-overflow: inherit;
+  background-color: #f2f2f7;
+  border: 2px solid #e4e4ef;
+  border-radius: 12px;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: justify;
+  color: #2a2b37;
+  padding: 2rem;
+}
+.form__container {
+  display: flex;
+  margin-top: 1.6rem;
+  p {
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.25;
+  }
+}
+.form__box {
+  display: flex;
+  label {
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.25;
+  }
+}
+.form__box__checkbox {
+  margin-left: 2.4rem;
+  margin-right: 1rem;
+}
+.form__text {
+  margin-left: auto;
+}
+
+.option {
+  margin-top: 2.4rem;
+}
+.option__container {
+}
+
+.option__info {
+  display: flex;
+  gap: 1.6rem;
+  div {
+    width: 320px;
+    height: 150px;
+    border-radius: 12px;
+    padding: 26.5px 16px;
+  }
+}
+
+.option__info div:nth-child(1) {
+  background-color: #d3a0fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../src/images/Vector.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  h2 {
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  p {
+    margin-top: 5px;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+.option__info div:nth-child(2) {
+  background-color: #ff9f00;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../src/images/Vector-1.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  h2 {
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+  p {
+    margin-top: 5px;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+.option__info div:nth-child(3) {
+  background-color: #fe8159;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../src/images/Vector-2.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  h2 {
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+  p {
+    margin-top: 5px;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+}
+
+.option__title {
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 1.29;
+  margin-top: 2.4rem;
+}

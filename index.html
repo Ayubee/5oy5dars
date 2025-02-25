@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Character Counter</title>
+    <link rel="stylesheet" href="./styles/style.min.css" />
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header class="header">
+      <div class="header__container container">
+        <img
+          id="logo"
+          src="./src/images/Logo.svg"
+          alt="Logo Character"
+          srcset=""
+        />
+        <button class="header__mod" id="dark-mood">
+          <img
+            id="dark__mod__img"
+            src="./src/images/Settings Icon.svg"
+            alt=""
+            width="18"
+            height="18"
+          />
+        </button>
+      </div>
+    </header>
+    <!-- HEADER END -->
+    <!-- MAIN START -->
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container container">
+          <h1 class="hero__title">Analyze your text in real-time.</h1>
+          <form>
+            <input type="text" class="hero__form__text" />
+            <div class="form__container">
+              <div class="form__box">
+                <input type="checkbox" name="hero__checkbox" id="" />
+                <label for="hero__checkbox">Exclude Spaces</label>
+                <input
+                  class="form__box__checkbox"
+                  type="checkbox"
+                  name="hero__checkbox"
+                  id=""
+                />
+                <label for="hero__checkbox">Set Character Limit Set</label>
+              </div>
+              <p class="form__text">Approx. reading time: 1 minute</p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="option">
+        <div class="option__container container">
+          <div class="option__info">
+            <div>
+              <h2>278</h2>
+              <p>Total Characters</p>
+            </div>
+
+            <div>
+              <h2>39</h2>
+              <p>Word Count</p>
+            </div>
+
+            <div>
+              <h2>04</h2>
+              <p>Sentence Count</p>
+            </div>
+          </div>
+          <h4 class="option__title">Letter Density</h4>
+        </div>
+      </section>
+    </main>
+    <!-- MAIN END -->
+    <!-- FOOTER START -->
+    <footer class="footer"></footer>
+    <!-- FOOTER END -->
+    <script src="./index.js"></script>
+  </body>
+</html>
